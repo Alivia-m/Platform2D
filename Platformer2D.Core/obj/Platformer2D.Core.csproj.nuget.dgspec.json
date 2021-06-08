@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Liv\\Desktop\\repos2\\MonoGame_Platformer2D-Sample\\Platformer2D\\Platformer2D.Core\\Platformer2D.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Liv\\Desktop\\repos2\\MonoGame_Platformer2D-Sample\\Platformer2D\\Platformer2D.Core\\Platformer2D.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Liv\\Desktop\\repos2\\MonoGame_Platformer2D-Sample\\Platformer2D\\Platformer2D.Core\\Platformer2D.Core.csproj",
+        "projectName": "Platformer2D.Core",
+        "projectPath": "C:\\Users\\Liv\\Desktop\\repos2\\MonoGame_Platformer2D-Sample\\Platformer2D\\Platformer2D.Core\\Platformer2D.Core.csproj",
+        "packagesPath": "C:\\Users\\Liv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Liv\\Desktop\\repos2\\MonoGame_Platformer2D-Sample\\Platformer2D\\Platformer2D.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Liv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
